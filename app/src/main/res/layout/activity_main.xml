@@ -5,13 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#5C6F81"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
      <TextView
-         android:padding=""
-         android:background="#6C2929"
-         android:layout_margin="10dp"
+         android:layout_gravity="center"
+         android:textSize="30dp"
          android:text="View 1"
+         android:background="#D54A4A"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+     <TextView
+         android:textSize="30dp"
+         android:text="View 2"
+         android:background="#12285C"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"/>
 
