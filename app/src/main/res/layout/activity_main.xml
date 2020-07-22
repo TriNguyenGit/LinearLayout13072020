@@ -9,7 +9,6 @@
 
      <LinearLayout
           android:layout_weight="1"
-          android:background="#51B3E1"
           android:layout_width="match_parent"
           android:weightSum="3"
           android:orientation="vertical"
@@ -17,7 +16,10 @@
 
           <LinearLayout
               android:layout_weight="1"
-              android:background="#D54F4F"
+              android:background="#DFDCDC"
+              android:text="A"
+              android:textSize="30sp"
+              android:textColor="#500909"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
           </LinearLayout>
@@ -33,10 +35,6 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
           </LinearLayout>
-
-
-
-
      </LinearLayout>
 
      <LinearLayout
@@ -44,4 +42,5 @@
          android:background="#BA4141"
          android:layout_width="match_parent"
          android:layout_height="0dp">
+     </LinearLayout>
 </LinearLayout>
